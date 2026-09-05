@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment variables and secrets
+.env
+*.env
+
+# Data files
+*.csv
+*.xlsx
+*.pickle
+*.pkl
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# FAISS index
+faiss_index/
+
+# Generated files
+sample.txt
+
+# OS files
+.DS_Store
+Thumbs.db
